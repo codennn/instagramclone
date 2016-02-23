@@ -1,0 +1,7 @@
+
+
+<% @posts.each do |x| %>
+    <%= image_tag (x.image.url(:medium)) %>
+    <br>
+    <%= x.Title %>
+<% end %>
